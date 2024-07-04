@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+   <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body> 
+     <div class="backicon">
+            <a href="../../Layout/circle glass card/index.html"><i class="fa fa-arrow-left"  aria-hidden="true"></i></a>
+         
+        
+        </div>
+    <div class="main_div">
+      
+        <div class="music_container">
+            <h2 id="title">IGNITE</h2>
+            <h3 id="artist">Alan Walker</h3>
+            <div class="img_container">
+               <img src="images/song1.jpg" alt="">
+               <div>
+                 <audio src="song/song1.mp3" ></audio>
+                 <input type="range" value="0" id="progress">
+                 
+                 <div class="music_controls">
+                    <i class="fas fa-backward" id="prev" title="Previous"></i>
+                    <i class="fas fa-play main_button" id="Play" title="Play"></i>
+                    <i class="fas fa-forward" id="next" title="Next"></i>
+
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
